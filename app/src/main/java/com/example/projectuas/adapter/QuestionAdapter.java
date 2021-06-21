@@ -1,4 +1,4 @@
-package com.example.projectuas;
+package com.example.projectuas.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

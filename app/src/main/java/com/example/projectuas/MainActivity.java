@@ -1,15 +1,12 @@
 package com.example.projectuas;
 
-import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.GridView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.example.projectuas.adapter.CategoryAdapter;
 
 import java.util.ArrayList;
 

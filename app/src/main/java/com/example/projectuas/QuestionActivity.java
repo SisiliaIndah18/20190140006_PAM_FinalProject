@@ -10,16 +10,13 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.projectuas.R;
-import com.example.projectuas.QuestionAdapter;
-import com.example.projectuas.QuizDBHelper;
-import com.example.projectuas.Question;
+import com.example.projectuas.adapter.QuestionAdapter;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
-import static com.example.projectuas.CategoryAdapter.CATEGORY_COLOR;
-import static com.example.projectuas.CategoryAdapter.CATEGORY_ID;
+import static com.example.projectuas.adapter.CategoryAdapter.CATEGORY_COLOR;
+import static com.example.projectuas.adapter.CategoryAdapter.CATEGORY_ID;
 
 public class QuestionActivity extends AppCompatActivity {
     private RecyclerView mRecyclerView;
