@@ -69,44 +69,44 @@ public class QuizDBHelper extends SQLiteOpenHelper {
 
         //questions for category agama
         mQuestionList.add(new Question("Berikut ini adalah cara-cara bersyukur kepada Allah SWT, kecuali...", "Membaca hamdalah", "Mengerjakan salat lima waktu", "Berpuasa sepanjang waktu", "Belajar dan mengaji Al-Quran", "Berpuasa sepanjang waktu", CATEGORY_AGAMA));
-        mQuestionList.add(new Question("Arti fana yakni...", "Kekal", "Tidak kekal", "Abadi", "Selamanya", "Tidak kekal", CATEGORY_AGAMA));
+        mQuestionList.add(new Question("Apa Tugas dan fungsi manusia di bumi ?", "Beribadah dan menuntut ilmu", "Beribadah dan bekerja keras", "Beribadah dan mencari pekerjaan", "Beribadah dan khalifah di bumi", "Beribadah dan khalifah di bumi", CATEGORY_AGAMA));
         mQuestionList.add(new Question("Batas antara alam dunia dengan alam akhirat disebut...", "Alam barzah", "Yaumul hisab", "Yaumul mahsyar", "Yaumul ba’as", "Alam barzah", CATEGORY_AGAMA));
         mQuestionList.add(new Question("Kiamat kecil di kenal dengan istilah...", "Kiamat Kubro", "Kiamat Sugro", "Kiamat Zalzalah", "Hari Akhir", "Kiamat Sugro", CATEGORY_AGAMA));
-        mQuestionList.add(new Question("Wukuf di Padang Arafah adalah salah satu...", "Syarat wajib Haji", "Sunnah Haji", "Jenis ibadah Haji", "Rukun Haji", "Rukun Haji", CATEGORY_AGAMA));
+        mQuestionList.add(new Question("Apa hukum menuntut ilmu bagi manusia ?", "Wajib 'ain", "Wajib", "Sunnah", "Wajib kifayah", "Wajib 'ain", CATEGORY_AGAMA));
 
         //questions for category ips
-        mQuestionList.add(new Question("Sosiologi mempunyai empat ciri ilmu, salah satunya adalah ilmu sosiologi selalu berusaha menyusun abstraksi dari hasil observasi yang konkret di lapangan. Ciri sosiologi tersebut dikenal dengan istilah...", "teoritis", "empiris", "kumulatif", "khayalan", "teoritis", CATEGORY_IPS));
-        mQuestionList.add(new Question("Objek sosiologi yang menjelaskan tentang gejala-gejala kehidupan sosial dan proses hubungan antar manusia yang mempengaruhi kesatuan hidup manusia itu sendiri merupakan objek sosiologi...", "material", "formal", "primer", "sekunder", "material", CATEGORY_IPS));
-        mQuestionList.add(new Question("Seorang pemimpin upacara bendera menyiapkan peserta upacara setelah diberi instruksi oleh pembina upacara. Dari contoh di atas interaksi terjadi karena memenuhi syarat...", "kontak dan pertemuan", "kontak dan komunikasi", "pengertian dan komunikasi", "kontak dan sugesti", "kontak dan komunikasi", CATEGORY_IPS));
-        mQuestionList.add(new Question("Negara Amerika Serikat banyak melakukan investasi seperti peminjaman dana pembangunan untuk Indonesia sebagai negara berkembang. Peminjaman dana pembangunan yang dilakukan Amerika di Indonesia adalah globalisasi dalam bentuk...", "globalisasi perdagangan", "globalisasi pembiayaan", "globalisasi produksi", "globalisasi pembanguna", "globalisasi pembiayaan", CATEGORY_IPS));
-        mQuestionList.add(new Question("Sekelompok pemuda yang biasa berkumpul di terminal untuk mabuk-mabukan ditangkap polisi karena sering membuat resah para calon penumpang karena perilaku mereka yang tidak terkendali. Kelompok sosial ini termasuk...", "inconvenient aggregations", "panic crowds", "immoral crowds", "spectator crowds", "immoral crowds", CATEGORY_IPS));
+        mQuestionList.add(new Question("Benua terluas di permukaan bumi adalah….", "Amerika", "Afrika", "Asia", "Australia", "Asia", CATEGORY_IPS));
+        mQuestionList.add(new Question("Objek sosiologi yang menjelaskan tentang gejala-gejala kehidupan sosial dan proses hubungan antar manusia yang mempengaruhi kesatuan hidup manusia itu sendiri merupakan objek sosiologi...", "Material", "Formal", "Primer", "Sekunder", "Material", CATEGORY_IPS));
+        mQuestionList.add(new Question("Sebagian besar penduduk yang berasal dari wilayah Asia Timur dan Asia Tenggara adalah ras….", "Negroid", "Kaukasoid", "Mongoloid", "Europoid", "Mongoloid", CATEGORY_IPS));
+        mQuestionList.add(new Question("Negara Amerika Serikat banyak melakukan investasi seperti peminjaman dana pembangunan untuk Indonesia sebagai negara berkembang. Peminjaman dana pembangunan yang dilakukan Amerika di Indonesia adalah globalisasi dalam bentuk...", "Globalisasi perdagangan", "Globalisasi pembiayaan", "Globalisasi produksi", "Globalisasi pembangunan", "Globalisasi pembiayaan", CATEGORY_IPS));
+        mQuestionList.add(new Question("Timbulnya suatu penemuan baru dalam masyarakat didorong kuat oleh faktor ….", "Rasa tidak puas terhadap hal yang sudah ada", "Keinginan untuk menyaingi bangsa lain yang sudah maju", "Adanya kesadaran masyarakat terhadap kurangnya unsur kebudayaan baru", "Adanya penghargaan penemuan baru", "Adanya kesadaran masyarakat terhadap kurangnya unsur kebudayaan baru", CATEGORY_IPS));
 
         //questions for category ipa
-        mQuestionList.add(new Question("Berikut ini merupakan komponen biotik di alam adalah...", "Tanah liat", "Batu bata", "Air laut", "Jasad renik", "Jasad renik", CATEGORY_IPA));
+        mQuestionList.add(new Question("Berikut ini merupakan ciri-ciri yang dimiliki oleh kelompok Protista adalah…", "Prokariotik", "Eukariotik", "Makroskopis", "Multiseluler", "Eukariotik", CATEGORY_IPA));
         mQuestionList.add(new Question("Upaya meminimalisasi sampah hasil limbah rumah tangga agar tidak mencemari perairan dapat dilakukan dengan cara mendaur ulang sampah-sampah di sekitar kita. Seperti dibuat menjadi kompos, kerajinan tangan, dan benda berguna lainnya. Upaya tersebut disebut dengan istilah...", "Recycle", "Reuse", "Reduce", "Repair", "Recycle", CATEGORY_IPA));
-        mQuestionList.add(new Question("Batu ginjal merupakan penyakit berbahaya pada sistem ekskresi manusia. Salah satu cara yang dapat dilakukan untuk mencegah penyakit tersebut adalah...", "Banyak mengonsumsi garam mineral", "Banyak mengonsumsi minuman beralkohol", "Banyak mengonsumsi makanan yang mengandung pewarna", "Banyak mengonsumsi air putih", "Banyak mengonsumsi air putih", CATEGORY_IPA));
+        mQuestionList.add(new Question("Pencemaran lingkungan akibat membuang sampah sembarangan dapat menimbulkan berbagai macam penyakit. Bentuk usaha untuk menanggulangi masalah tersebut adalah dengan cara...", "Menimbun sampah plastik di dalam tanah", "Mengolah sampah organik untuk pupuk kompos", "Mengolah sampah anorganik untuk makanan ternak", "Membuang sampah ke selokan agar tidak menumpuk", "Mengolah sampah organik untuk pupuk kompos", CATEGORY_IPA));
         mQuestionList.add(new Question("Penyakit menular pada alat kelamin manusia yang disebabkan oleh bakteri Treponema pallidum disebut...", "HIV", "Gonorhoe", "Sifilis", "Keputihan", "Sifilis", CATEGORY_IPA));
-        mQuestionList.add(new Question("Berikut ini merupakan kondisi yang dapat terjadi jika organ hati rusak adalah...", "Terganggunya fungsi sistem organ", "Dapat menimbulkan penyakit", "Akumulasi suatu toksik dalam tubuh", "Semua jawaban benar", "Semua jawaban benar", CATEGORY_IPA));
+        mQuestionList.add(new Question("Jenis ayam berikut ini yang merupakan hasil persilangan beberapa jenis ayam unggul dari berbagai negara adalah ayam….", "Ayam jago", "Ayam hutan", "Ayam broiler", "Ayam kampung", "Ayam broiler", CATEGORY_IPA));
 
         //questions for category pemrograman
         mQuestionList.add(new Question("Dalam menyusun suatu program,langkah pertama yang harus di lakkukan adalah...", "Membuat program", "Membuat Algoritma", "Proses", "Mempelajari program", "Membuat Algoritma", CATEGORY_PROGRAM));
-        mQuestionList.add(new Question("Pemberian nama variabel yang benar adalah...", "%nilai", "nilai_mahasiswa", "NamaMahasiswa", "&panjang", "nilai_mahasiswa", CATEGORY_PROGRAM));
-        mQuestionList.add(new Question("Suatu program terpisah dalam blok sendiri yang berfungsi sebagai subprogram (program bagian) disebut...", "Variabel", "Deklarasi", "Prosedur", "Constructor", "Prosedur", CATEGORY_PROGRAM));
-        mQuestionList.add(new Question("Istilah \"perulangan\" dalam pemograman pascal dikenal dengan...", "Repeating", "Funtion", "Looping", "Replay", "Looping", CATEGORY_PROGRAM));
+        mQuestionList.add(new Question("Pemberian nama variabel yang benar adalah...", "%nama", "nama_mahasiswa", "NamaMahasiswa", "&nilai", "nama_mahasiswa", CATEGORY_PROGRAM));
+        mQuestionList.add(new Question("Indeks array secara default dimulai dari...", "-1", "0", "1", "9", "0", CATEGORY_PROGRAM));
+        mQuestionList.add(new Question("Operator logika yang menyatakan \"atau\" dalam lambang berikut ini adalah...", "&&", "||", "!", "<>", "||", CATEGORY_PROGRAM));
         mQuestionList.add(new Question("Tipe data untuk TRUE FALSE adalah...", "String", "Boolean", "Byte", "Char", "Boolean", CATEGORY_PROGRAM));
 
         //questions for category olahraga
-        mQuestionList.add(new Question("Serangan pertama kali untuk memulai permainan dalam permainan bola voli adalah pengertian dari...", "Smash", "Block", "Servis", "Passing", "Servis", CATEGORY_OLAHRAGA));
-        mQuestionList.add(new Question("Setiap set dalam permainan bola voli berakhir ketika salah satu tim memperoleh nilai...", "11 poin", "15 poin", "21 poin", "25 poin", "25 poin", CATEGORY_OLAHRAGA));
-        mQuestionList.add(new Question("Menyundul bola di sebut juga dengan...", "Shooting", "Heading", "Passing", "Block", "Heading", CATEGORY_OLAHRAGA));
+        mQuestionList.add(new Question("Tindakan menghadang bola atau menghlang-halangi smasher yang sedang melakukan smash disebut....", "Blok", "Tip", "Toss", "Servis", "Blok", CATEGORY_OLAHRAGA));
+        mQuestionList.add(new Question("Pukulan bola yang menukik ke arah lapangan lawan adalah....", "Blok", "Smash", "Servis", "Passing", "Smash", CATEGORY_OLAHRAGA));
+        mQuestionList.add(new Question("Batas jarak awalan pada lompat jauh adalah....", "25-40 m", "30-45 m", "50-55 m", "55-60 m", "30-45 m", CATEGORY_OLAHRAGA));
         mQuestionList.add(new Question("Tembakan sambil melompat dalam bola basket di sebut juga dengan istilah...", "Jump Shoot", "Lay Up", "Rebound", "Pivot", "Jump Shoot", CATEGORY_OLAHRAGA));
-        mQuestionList.add(new Question("Rencana untuk melakukan suatu penyerangan atau pertahanan sebelum pertandingan di sebut...", "Taktik", "Tehnik", "Formasi", "Strategi", "Strategi", CATEGORY_OLAHRAGA));
+        mQuestionList.add(new Question("Suatu sistem latihan yang diselingi oleh masa-masa istirahat, disebut....", "Fartlek", "Joging", "Cross country", "Interval training", "Interval training", CATEGORY_OLAHRAGA));
 
         //questions for category matematika
-        mQuestionList.add(new Question("Hasil dari -4 + 8 : (-2) x 2 + 5 -2 adalah...", "-9", "-7", "7", "9", "-9", CATEGORY_MTK));
-        mQuestionList.add(new Question("Sebuah toko kue selama 8 hari dapat membuat 240 kotak kue. Banyak kue yang dapat dibuat oleh toko tersebut selama 12 hari adalah...", "160 kotak", "260 kotak", "360 kotak", "460 kotak", "360 kotak", CATEGORY_MTK));
-        mQuestionList.add(new Question("Pak Arif membeli motor dengan harga Rp15.000.000,00 dan dijual lagi dengan harga Rp16.500.000,00. Berapa perentase keuntungan yang diperoleh?", "1%", "1,5%", "10%", "15%", "10%", CATEGORY_MTK));
-        mQuestionList.add(new Question("Berat rata-rata dari 12 siswa adalah 55 kg dan berat rata-rata 15 orang lainya adalah 45 Berat rata-rata dari keseluruhan kedua kelompok tersebut adalah...", "47 kg", "48 kg", "49 kg", "50 kg", "49 kg", CATEGORY_MTK));
+        mQuestionList.add(new Question("Sebuah taman berbentuk persegi. Di sekeliling taman itu ditanami pohon pinus dengan jarak antar pohon 4 m. Panjang sisi taman itu adalah 65 m. Banyak pohon pinus yang dibutuhkan adalah ...", "50", "55", "60", "65", "65", CATEGORY_MTK));
+        mQuestionList.add(new Question("Harga satu kaus dan dua celana Rp150.000,00 sedangkan harga 3 kaus dan 3 celana Rp      000,00. Harga 2 kaus dan 5 celana adalah.…", "Rp60.000,00", "Rp90.000,00", "Rp270.000,00", "Rp360.000,00", "Rp360.000,00", CATEGORY_MTK));
+        mQuestionList.add(new Question("Diketahui barisan aritmetika dengan U4= 20 dan U8= 44. Suku ke-40 baris itu adalah…", "106", "236", "246", "275", "236", CATEGORY_MTK));
+        mQuestionList.add(new Question("Dari pasangan sisi-sisi segitiga dibawah ini, yang merupakah sisi-sisi segitiga siku-siku adalah...", "8 cm, 12 cm, 16 cm", "9 cm, 12 cm, 15 cm", "9 cm, 12 cm, 17 cm", "12 cm, 14 cm, 20 cm", "9 cm, 12 cm, 15 cm", CATEGORY_MTK));
         mQuestionList.add(new Question("Sebuah lapangan berbentuk lingkaran dengan diameter 56 m. Di sekeliling lapangan akan dipasang lampu dengan jarak 4 m. Berapa banyak lampu yang diperlukan?", "24 buah", "30 buah", "34 buah", "44 buah", "44 buah", CATEGORY_MTK));
     }
 
