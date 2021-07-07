@@ -12,16 +12,19 @@ import java.util.ArrayList;
 
 public class ToggleButtonGroupTableLayout extends TableLayout {
 
-    private RadioButton mActiveRadioButton;
+    private RadioButton mActiveRadioButton; //dekalrasi variabel untuk RadioButton
 
+    //membuat konstruktor ToggleButtonGroupTableLayout
     public ToggleButtonGroupTableLayout(Context context) {
         super(context);
     }
 
+    //membuat konstruktor ToggleButtonGroupTableLayout
     public ToggleButtonGroupTableLayout(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
+    //membuat kosntruktor ArrayList untuk RadioButton
     public ArrayList<RadioButton> getChildren() {
         ArrayList<RadioButton> radioButtons = new ArrayList<>();
         int childCount = this.getChildCount();
@@ -35,39 +38,42 @@ public class ToggleButtonGroupTableLayout extends TableLayout {
                 }
             }
         }
-        return radioButtons;
+        return radioButtons; //kembali ke nilai radioButtons
     }
 
+    //method untuk mengecek jawaban
     public void checkAnswer(final RadioButton rb, String answer, Context mContext) {
-        if (mActiveRadioButton != null) {
+        if (mActiveRadioButton != null) { //jika tidak sama dengan null
             mActiveRadioButton.setChecked(false);
         }
         int id = -1;
-        rb.setChecked(true);
+        rb.setChecked(true); //jika benar
         if (rb.getText().equals(answer)) {
-            setRadioButtonBackgroundColor(rb, R.color.transparent_green);
-            ((QuestionActivity) mContext).updateScore();
-        } else {
-            setRadioButtonBackgroundColor(rb, R.color.transparent_red);
+            setRadioButtonBackgroundColor(rb, R.color.transparent_green); //set bg radio button
+            ((QuestionActivity) mContext).updateScore(); //menambahkan score
+        } else { //jika salah
+            setRadioButtonBackgroundColor(rb, R.color.transparent_red); //set bg radio button
             for (RadioButton radioButton : getChildren()) {
-                if (radioButton.getText().equals(answer)) {
-                    setRadioButtonBackgroundColor(radioButton, R.color.transparent_green);
+                if (radioButton.getText().equals(answer)) { //jika benar
+                    setRadioButtonBackgroundColor(radioButton, R.color.transparent_green); //set bg radio button
                     id = radioButton.getId();
                 }
             }
         }
-        ((QuestionActivity) mContext).displayScore();
-        mActiveRadioButton = rb;
+
+        ((QuestionActivity) mContext).displayScore(); //menampilkan score
+        mActiveRadioButton = rb; //deklarasi rb
         for (RadioButton radioButton : getChildren()) {
             radioButton.setClickable(false);
             if (radioButton.getId() != rb.getId() && radioButton.getId() != id) {
-                setRadioButtonBackgroundColor(radioButton, R.color.transparent_grey);
-                radioButton.setTextColor(getResources().getColor(R.color.transparent_black));
+                setRadioButtonBackgroundColor(radioButton, R.color.transparent_grey); //set bg radio button
+                radioButton.setTextColor(getResources().getColor(R.color.transparent_black)); //set text color radio button
             }
         }
     }
 
+    //method setRadioButtonBackgroundColor
     private void setRadioButtonBackgroundColor(RadioButton button, int colorId) {
-        button.getBackground().setColorFilter(Color.parseColor(getContext().getString(colorId)), PorterDuff.Mode.MULTIPLY);
+        button.getBackground().setColorFilter(Color.parseColor(getContext().getString(colorId)), PorterDuff.Mode.MULTIPLY); //set radio button background color
     }
 }
